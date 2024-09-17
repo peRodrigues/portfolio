@@ -1,0 +1,21 @@
+:root {
+  --blue: #94BFFF;
+  --primary-bg: #343A40;
+  --secondary-bg: #495057;
+  --primary-txt: #F8F9FA;
+  --secondary-txt: #BBBCBC;
+}
+
+.html--light {
+  --blue: #007BFF;
+  --primary-bg: #F8F9FA;
+  --secondary-bg: #E9ECEF;
+  --primary-txt: #212529;
+  --secondary-txt: #505254;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
