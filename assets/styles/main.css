@@ -73,7 +73,7 @@
   width: 100vw;
   height: calc(100vh - 4rem);
   background: var(--secondary-bg);
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 4rem 0;
   transition: top 0.4s ease-out, background 0.1s ease-in-out;
 }
 
@@ -86,7 +86,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 9rem);
+  height: calc(100vh - 12rem);
 }
 
 .header__logo--mobile {
