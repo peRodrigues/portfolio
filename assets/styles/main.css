@@ -395,6 +395,8 @@
     transition: top 0.4s ease-out, background 0.1s ease-in-out;
   }
 
+  
+
   .header__logo-title,
   .header__logo-span:nth-child(2) {
     display: inline-block;
@@ -485,6 +487,8 @@
 }
 
 @media (min-width: 1028px) {
+
+
   body {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -506,6 +510,10 @@
 
     box-shadow: none;
     z-index: 1;
+  }
+
+  .header__menu-mobile {
+    display: none;
   }
 
   .header__icons {
@@ -607,7 +615,7 @@
 
   .main__content {
     height: max-content;
-    padding: 4rem 8rem;
+    padding: 4rem 8rem 0 8rem;
   }
 
   .main__section {
@@ -627,7 +635,7 @@
   }
 
   .main__divider--footer {
-    margin: 3rem 0 1rem 0;
+    margin: 3rem 0;
   }
 
   .main__card {
@@ -640,6 +648,7 @@
 
   .main__card-image {
     height: auto;
+    width: 100%;
     border-radius: .2rem 0 0 .2rem;
   }
 
